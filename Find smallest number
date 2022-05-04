@@ -1,0 +1,18 @@
+#!/bin/bash
+n1=2
+n2=3
+n3=1
+n4=9
+if [ $n1 -lt $n2 ] && [ $n1 -lt $n3 ] && [ $n1 -lt $n4 ]
+then
+echo "n1 is smalllest"
+elif [ $n2 -lt $n1 ] && [ $n2 -lt $n3 ] && [ $n2 -lt $n4 ]
+then 
+echo "n2 is smalllest"
+elif [ $n3 -lt $n1 ] && [ $n3 -lt $n1 ] && [ $n3 -lt $n4 ]
+then
+echo "n3 is smalllest"
+elif [ $n4 -lt $n1 ] && [ $n4 -lt $n1 ] && [ $n4 -lt $n3 ]
+then
+echo "n4 is smalllest"
+fi
