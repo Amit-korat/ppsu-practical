@@ -1,0 +1,25 @@
+#!/bin/bash
+Echo "Enter 1st number :”
+read a
+echo "Enter 2nd number :”
+read b
+echo "Enter choice :”
+echo "1. Addition"
+echo "2. Subtraction"
+echo "3. Multiplication"
+echo "4. Division"
+read ch
+case $ch in
+1)
+echo "$((a+b))"
+;;
+2)
+echo "$((a-b))
+;;
+3)
+echo "$((a"b))"
+;;
+4)
+echo "$((a/b))
+;;
+esac
