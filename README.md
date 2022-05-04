@@ -16,7 +16,9 @@ PRIORITY
 DEADLOCK DETECTION
 BANKER's ALGO. 
 PRIME 
+Shell script largest & greatest number 
 
 
 
 >>
+
